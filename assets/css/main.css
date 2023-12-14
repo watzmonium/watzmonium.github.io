@@ -3179,7 +3179,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.arbiter-ui {
-			min-width: 250px;	
+			min-width: 200px;	
 			max-width: 250;
 		}
 		/* Basic */
