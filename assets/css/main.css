@@ -110,14 +110,13 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: rgb(32, 32, 121);
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: rgb(32, 32, 121) !important;
+			color: rgb(82, 70, 245);
 			text-decoration: none;
 		}
 
@@ -2128,7 +2127,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 90%;
 			height: 60%;
 			box-shadow: 1px 1px 5px #1f1815;
 		}
@@ -2158,16 +2157,26 @@ input, select, textarea {
 	.logo {
 		width: 200px;
 		padding: 0;
-		margin: 0 auto;
+		/* margin: 0 auto; */
 		display: block;
     filter: drop-shadow(5px 5px 5px #d3d0d0dc);
 	}
 
 	.arbiter-info {
 		display: flex;
+		flex-direction: column;
 		column-gap: 20px;
 	}
 
+	.arbiter-heading {
+		display: flex;
+		column-gap: 50px;
+	}
+
+	.case-study {
+		width: 400px;
+		margin-top: 30px;
+	}
 	#main > #three {
 		margin-top: 1em;
 	}
@@ -2484,6 +2493,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		margin-bottom: 20px;
 	}
 
 		input[type="submit"]:hover,
@@ -2670,14 +2680,23 @@ input, select, textarea {
 		}
 		
 	.arbiter-ui {
-		min-width: 450px;
+		min-width: 650px;
 		max-width: 450px;
+		margin: 0 auto;
+	}
+
+	a > img {
+		margin-bottom: 20px;
 	}
 
 	.arbiter-ui img {
 		width: 100%;
 		box-shadow: 1px 1px 5px #1f1815;
+		border-radius: 10px;
+
 	}
+
+
 
 /* Footer */
 
@@ -3067,10 +3086,7 @@ input, select, textarea {
 				padding: 4em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
-			.arbiter-info {
-				flex-direction: column-reverse;
-				row-gap: 20px;
-			}
+
 			.arbiter-ui {
 				margin: 0 auto;
 			}
@@ -3162,6 +3178,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		.arbiter-ui {
+			min-width: 250px;	
+			max-width: 250;
+		}
 		/* Basic */
 
 			h1 {
@@ -3244,6 +3264,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		.arbiter-ui {
+			min-width: 250px;	
+			max-width: 250;
+		}
 		/* Header */
 
 			#header {
