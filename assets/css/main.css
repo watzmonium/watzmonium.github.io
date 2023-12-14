@@ -2174,8 +2174,8 @@ input, select, textarea {
 	}
 
 	.case-study {
-		width: 400px;
-		min-width: 400px;
+		width: 300px;
+		min-width: 300px;
 		margin-top: 30px;
 	}
 	#main > #three {
