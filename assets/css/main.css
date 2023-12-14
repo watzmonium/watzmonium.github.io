@@ -3265,8 +3265,8 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		.arbiter-ui {
-			min-width: 250px;	
-			max-width: 250;
+			min-width: 200px;	
+			max-width: 200;
 		}
 		/* Header */
 
